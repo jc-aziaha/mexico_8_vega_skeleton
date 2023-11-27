@@ -22,3 +22,11 @@
     // 2- Chargement des variables d'environnement
     require __DIR__ . "/packages/environment/dotenv.php";
 
+
+    // 3- Chargement du conteneur de services
+    $container = require __DIR__ . "/packages/di/container.php";
+
+
+    // 4- Chargement le loggueur
+    require __DIR__ . "/packages/logger/monolog.php";
+
