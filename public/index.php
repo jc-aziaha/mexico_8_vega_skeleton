@@ -29,7 +29,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 
     // 2- Créer une nouvelle instance du noyau de l'application
-    $kernel = new Kernel();
+    $kernel = new Kernel($container);
 
 
     // 3- Récupérer les données de la requête du client

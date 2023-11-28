@@ -34,3 +34,10 @@
     // 5- Chargement du débogueur
     require __DIR__ . "/packages/error_handler/whoops.php";
 
+
+    // 6- Chargement du moteur de template twig
+    require __DIR__ . "/packages/twig/twig.php";
+
+
+
+
