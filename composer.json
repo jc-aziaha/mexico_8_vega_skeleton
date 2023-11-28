@@ -25,6 +25,7 @@
         "sort-packages": true
     },
     "require": {
+        "filp/whoops": "^2.15",
         "monolog/monolog": "^3.5",
         "php-di/php-di": "^7.0",
         "symfony/dotenv": "^6.3",
