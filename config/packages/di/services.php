@@ -1,5 +1,7 @@
 <?php
 
+use App\Controller\LoginController;
+use App\Controller\RegisterController;
 use Twig\Environment;
 use AttributesRouter\Router;
 use Twig\Loader\FilesystemLoader;
@@ -8,7 +10,9 @@ use App\Controller\WelcomeController;
     return [
 
         "controllers" => [
-            WelcomeController::class
+            WelcomeController::class,
+            LoginController::class,
+            RegisterController::class
         ],
 
         Router::class => DI\create()

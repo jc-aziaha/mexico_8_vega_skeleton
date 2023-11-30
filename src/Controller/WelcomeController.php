@@ -10,6 +10,13 @@ use VegaCore\AbstractController\AbstractController;
         #[Route('/', name: "app_index", methods:['GET'])]
         public function index(): Response
         {
-            return $this->render('index.html.twig');
+            $player = "Mario";
+
+            $players = ["Luigi", "Daisy", "Peach", "Toad", "Bowser"];
+
+            return $this->render('index.html.twig', [
+                "player"  => $player,
+                "players" => $players
+            ]);
         }
     }
