@@ -2,8 +2,9 @@
 
 - Expression des besoins du client
 - Recueil des besoins et faire une étude de faisabilité
-- Rédaction des charges
+- Rédaction du cahier des charges
 - Validation du cahier des charges 
+    - Aussi bien par le client (MOA) que par le chef de projet (MOE)
 
 - Définition des spécifications fonctionnelles (Fonctionnalités)
 
@@ -28,6 +29,8 @@
     - Back-end
         - PHP 
             - Symfony
+
+    - Services tiers
     
 
 - Conception (Web Design)
@@ -36,7 +39,7 @@
     
 - Conception de la base de données
     - UML (Diagramme de modélisation) (Optionnel)
-    - Merise => MCD, MLD
+    - Merise => MCD, MLD, MPD
 
 - Phase de réalisation
     (C'est là que nous intervenons)
@@ -46,6 +49,7 @@
     - Tests fonctionnels
     - Tests End to End
 
-- Phase de Pré-Production
+- Phase de Pré-Production 
 
 - Phase de Production
+
