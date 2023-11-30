@@ -3,12 +3,12 @@
 use Twig\Environment;
 use AttributesRouter\Router;
 use Twig\Loader\FilesystemLoader;
-use App\Controller\MainController;
+use App\Controller\WelcomeController;
 
     return [
 
         "controllers" => [
-            MainController::class
+            WelcomeController::class
         ],
 
         Router::class => DI\create()
